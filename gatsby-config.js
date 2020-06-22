@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/pw",
   siteMetadata: {
     title: `-_-_-`,
     description: `This is my portfolio website, a junior software developer and interaction designer based in Gothenburg. `,
