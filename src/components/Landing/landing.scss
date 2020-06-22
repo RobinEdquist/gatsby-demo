@@ -1,0 +1,18 @@
+@import "../../global.scss";
+
+.landing-container {
+  height: 100vh;
+  min-height: 49vw;
+}
+
+.title {
+  //font-size: 15rem;
+  color: $dark-blue;
+  margin-left: 2rem;
+}
+
+.landing-blob {
+  width: 80vw;
+  position: absolute;
+  z-index: -1;
+}

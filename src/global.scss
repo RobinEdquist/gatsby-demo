@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import "./modularscale/modularscale";
+$dark-blue: #394466;
+
+$modularscale: (
+  base: 10px,
+  ratio: 1.5,
+  400px: (
+    ratio: 1.2,
+  ),
+  900px: (
+    base: 10px,
+    ratio: 1.35,
+  ),
+  1700px: (
+    base: 10px,
+    ratio: 1.5,
+  ),
+);
+
+h1 {
+  @include ms-respond(font-size, 8);
+}
+h2 {
+  @include ms-respond(font-size, 5);
+}
+h3 {
+  @include ms-respond(font-size, 4);
+}
+h4 {
+  @include ms-respond(font-size, 3);
+}
+p,
+li {
+  @include ms-respond(font-size, 2);
+}
+
+td,
+th {
+  @include ms-respond(font-size, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Playfair Display", serif;
+}
+
+th,
+td,
+li {
+  font-family: Open Sans;
+}

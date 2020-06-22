@@ -1,0 +1,51 @@
+@import "../../global.scss";
+
+.aboutText {
+  //font-size: 3.5rem;
+  color: $dark-blue;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70vw;
+  word-wrap: break-word;
+}
+.aboutTop {
+  margin: 0;
+  position: absolute;
+  width: 85vw;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.aboutParent {
+  position: relative;
+  overflow: hidden;
+  min-height: 53vw;
+}
+
+.blob {
+  position: absolute;
+  width: 90vw;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.line {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.lineParent {
+  position: relative;
+  overflow: hidden;
+  min-height: 190px;
+  margin-top: 4rem;
+}
